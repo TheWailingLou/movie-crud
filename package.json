@@ -1,0 +1,23 @@
+{
+  "name": "movie-crud",
+  "version": "1.0.0",
+  "description": "### Make your own movie rating site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWailingLou/movie-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheWailingLou/movie-crud/issues"
+  },
+  "homepage": "https://github.com/TheWailingLou/movie-crud#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
