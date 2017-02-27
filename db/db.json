@@ -1,0 +1,18 @@
+{
+  "movies": [
+    {
+      "title": "Memento",
+      "year": "2000",
+      "director": "Christopher Nolan",
+      "User Rating": 5,
+      "posterURL": "https://upload.wikimedia.org/wikipedia/en/c/c7/Memento_poster.jpg"
+    },
+    {
+      "title": "Amadeus",
+      "year": "1984",
+      "director": "Milos Forman",
+      "User Rating": 4,
+      "posterURL": "http://t1.gstatic.com/images?q=tbn:ANd9GcRszKttX-DHHFm8ZRtTqUCrUYGS34C5clU2Shgw2nlEEle7heDN"
+    }
+  ]
+}

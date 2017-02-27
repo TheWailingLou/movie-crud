@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Ratings</title>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="scripts/newMovie.js"></script>
+    <link rel="stylesheet" href="styles/movies.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Lou's Movies</a>
+        <ul class="nav navbar-nav">
+          <li><a href="movies.html">Movie Listings</a></li>
+        </ul>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <main>
+      <div class="movieInput">
+        <label>Title</label>
+        <div class="input-group">
+          <input type="text" class="title form-control" placeholder="Movie Title">
+        </div>
+        <label>Release Date</label>
+        <div class="input-group">
+          <input type="text" class="year form-control" placeholder="Movie Release Date">
+        </div>
+        <label>Director</label>
+        <div class="input-group">
+          <input type="text" class="director form-control" placeholder="Director">
+        </div>
+        <label>Your Rating</label>
+        <div class="input-group">
+          <input type="number" min="1" max="5" class="rating form-control" placeholder="5">
+        </div>
+        <label>URL for Poster</label>
+        <div class="input-group">
+          <input type="text" class="posterURL form-control" placeholder="www.example.com">
+        </div>
+      </div>
+      <button type="button" class="btn btn-default submitMovie">Add Movie</button>
+
+    </main>
+
+  </body>
+</html>
